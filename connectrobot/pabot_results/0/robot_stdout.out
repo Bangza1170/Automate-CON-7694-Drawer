@@ -1,0 +1,96 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Engagement-Page                                                        
+==============================================================================
+TC-001 Verify Ui Create Leed                                          | PASS |
+------------------------------------------------------------------------------
+TC-002 Verify Ui List view in Create Lead                             | PASS |
+------------------------------------------------------------------------------
+TC-003 Verify Lead no in List view to no Lead                         | PASS |
+------------------------------------------------------------------------------
+TC-004 Verify Create Filter new                                       | PASS |
+------------------------------------------------------------------------------
+TC-005 Verify Pin List view Drawer Lead                               | PASS |
+------------------------------------------------------------------------------
+TC-006 Verify Unpin List view Drawer Lead                             | PASS |
+------------------------------------------------------------------------------
+TC-007 Verify Delete Filter Lead                                      | PASS |
+------------------------------------------------------------------------------
+TC-008 Verify Sorting List view Drawer Lead                           | PASS |
+------------------------------------------------------------------------------
+TC-009 Verify Pagination List view Drawer Lead                        | PASS |
+------------------------------------------------------------------------------
+TC-010 Verify Check Icon List view Drawer Lead                        | PASS |
+------------------------------------------------------------------------------
+TC-011 Verity Lead No. form list view Lead                            | PASS |
+------------------------------------------------------------------------------
+TC-012 the UI functionality on the Create Lead page in the case of... | PASS |
+------------------------------------------------------------------------------
+TC-013 Verify Create Lead In case there is a field that is Require... | PASS |
+------------------------------------------------------------------------------
+TC-014 Verify the Required Field in case of not Fill the required ... | PASS |
+------------------------------------------------------------------------------
+TC-015 Verify Lead Edit In the case of Required Fields                | PASS |
+------------------------------------------------------------------------------
+TC-016 Verify Lead Edit In the case of No Required Field              | PASS |
+------------------------------------------------------------------------------
+TC-017 Verify Create Leed Defalut field type Text,Radio Buttons,Se... | PASS |
+------------------------------------------------------------------------------
+TC-018 Verify Edit Leed Defalut field type Text,Radio Buttons,Select  | PASS |
+------------------------------------------------------------------------------
+TC-019 Verify View Lead                                               | PASS |
+------------------------------------------------------------------------------
+TC-020 Verify Delete Lead                                             | PASS |
+------------------------------------------------------------------------------
+TC-021 Verify Duppicate Lead                                          | PASS |
+------------------------------------------------------------------------------
+TC-022 Verify Ui Create Leed                                          | PASS |
+------------------------------------------------------------------------------
+TC-023 Verify Ui List view in Create Lead                             | PASS |
+------------------------------------------------------------------------------
+TC-024 Verify Ui Lead no in List view to no Lead                      | PASS |
+------------------------------------------------------------------------------
+TC-025 Verify Create Filter new                                       | PASS |
+------------------------------------------------------------------------------
+TC-026 Verify Pin List view Drawer Lead                               | PASS |
+------------------------------------------------------------------------------
+TC-027 Verify Unpin List view Drawer Lead                             | PASS |
+------------------------------------------------------------------------------
+TC-028 Verify Delete Filter Lead                                      | PASS |
+------------------------------------------------------------------------------
+TC-029 Verify Sorting List view Drawer Lead                           | PASS |
+------------------------------------------------------------------------------
+TC-030 Verify Pagination List view Drawer Lead                        | PASS |
+------------------------------------------------------------------------------
+TC-031 Verify Check Icon List view Drawer Lead                        | PASS |
+------------------------------------------------------------------------------
+TC-032 Verity Lead No. form list view Lead                            | PASS |
+------------------------------------------------------------------------------
+TC-033 the UI functionality on the Create Lead page in the case of... | PASS |
+------------------------------------------------------------------------------
+TC-034 Verify Create Lead In case there is a field that is Require... | PASS |
+------------------------------------------------------------------------------
+TC-035 Verify the Required Field in case of not Fill the required ... | PASS |
+------------------------------------------------------------------------------
+TC-036 Verify Lead Edit In the case of Required Fields                | PASS |
+------------------------------------------------------------------------------
+TC-037 Verify Lead Edit In the case of No Required Field              | PASS |
+------------------------------------------------------------------------------
+TC-038 Verify Create Leed Defalut field type Text,Radio Buttons,Se... | PASS |
+------------------------------------------------------------------------------
+TC-039 Verify Edit Leed Defalut field type Text,Radio Buttons,Select  | PASS |
+------------------------------------------------------------------------------
+TC-040 Verify View Lead                                               | PASS |
+------------------------------------------------------------------------------
+TC-041 Verify Delete Lead                                             | PASS |
+------------------------------------------------------------------------------
+TC-042 Verify Duppicate Lead                                          | PASS |
+------------------------------------------------------------------------------
+Suites.Engagement-Page                                                | PASS |
+42 tests, 42 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+42 tests, 42 passed, 0 failed
+==============================================================================
+Output:  /Users/noppadon/Desktop/Testrobot/connectrobot/pabot_results/0/output.xml

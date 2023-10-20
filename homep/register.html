@@ -1,0 +1,153 @@
+Apologies for the incomplete response. Here's the complete code for the registration form with the show/hide password feature:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container input[type="text"],
+    .container input[type="password"],
+    .container input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .error-message {
+      color: red;
+      margin-top: 5px;
+    }
+
+    .password-toggle {
+      position: relative;
+    }
+
+    .password-toggle input[type="password"] {
+      padding-right: 30px;
+    }
+
+    .password-toggle .toggle-icon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    function validateEmail() {
+      var emailInput = document.getElementById("email");
+      var email = emailInput.value;
+      var errorMessage = document.getElementById("email-error");
+
+      if (!email.endsWith("@gmail.com")) {
+        errorMessage.textContent = "Please enter a valid Gmail address.";
+        return false;
+      } else {
+        errorMessage.textContent = "";
+        return true;
+      }
+    }
+
+    function validatePassword() {
+      var passwordInput = document.getElementById("password");
+      var confirmPasswordInput = document.getElementById("confirm-password");
+      var password = passwordInput.value;
+      var confirmPassword = confirmPasswordInput.value;
+      var errorMessage = document.getElementById("password-error");
+
+      if (password !== confirmPassword) {
+        errorMessage.textContent = "Passwords do not match.";
+        return false;
+      } else {
+        errorMessage.textContent = "";
+        return true;
+      }
+    }
+
+    function togglePasswordVisibility() {
+      var passwordInput = document.getElementById("password");
+      var toggleIcon = document.getElementById("toggle-icon");
+
+      if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleIcon.classList.remove("fa-eye");
+        toggleIcon.classList.add("fa-eye-slash");
+      } else {
+        passwordInput.type = "password";
+        toggleIcon.classList.remove("fa-eye-slash");
+        toggleIcon.classList.add("fa-eye");
+      }
+    }
+
+    function validateForm() {
+      return validateEmail() && validatePassword();
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" placeholder="
+      <div class="container">
+        <h2>Registration Form</h2>
+        <form onsubmit="return validateForm()">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" id="email" placeholder="Email Address" required>
+          <span id="email-error" class="error-message"></span>
+          <div class="password-toggle">
+            <input type="password" id="password" placeholder="Password" required>
+            <i id="toggle-icon1" class="fa fa-eye toggle-icon" onclick="togglePasswordVisibility('password', 'toggle-icon1')"></i>
+          </div>
+          <div class="password-toggle">
+            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            <i id="toggle-icon2" class="fa fa-eye toggle-icon" onclick="togglePasswordVisibility('confirm-password', 'toggle-icon2')"></i>
+          </div>
+          <span id="password-error" class="error-message"></span>
+          <input type="submit" value="Register">
+        </form>
+      </div>
+    </body>
+    </html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
