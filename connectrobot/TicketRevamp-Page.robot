@@ -1,5 +1,6 @@
 *** Comments ***
 TC-001 ถึง TC-021 คือส่วน Ticket Channel IG
+TC-022 ถึง TC-042 คือส่วน Ticket Channel IG
 
 
 *** Settings ***
