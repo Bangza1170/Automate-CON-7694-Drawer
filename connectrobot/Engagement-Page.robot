@@ -1,6 +1,6 @@
 *** Comments ***
-TC-001 ถึง TC-021 คือส่วน Engagement Channel Facebook
-TC-022 ถึง TC-042 คือส่วน Engagement Channel IG
+TC-001 ถึง TC-021 คือส่วน Engagement Channel
+TC-022 ถึง TC-042 คือส่วน Engagement Channel IG Story
 
 
 *** Settings ***
